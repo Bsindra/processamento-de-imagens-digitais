@@ -40,6 +40,7 @@ saida_video = cv2.VideoWriter(nome_arquivo, fourcc, fps, (video_largura, video_a
 # Inicializando variáveis
 c = 0
 alvo = False
+subtraction = cv2.bgsegm.createBackgroundSubtractorMOG()
 
 # Loop Principal
 for c in tqdm(range(frame_count)):
@@ -61,7 +62,7 @@ for c in tqdm(range(frame_count)):
         #Processamento da imagem
         img = cv2.cvtColor(interest, cv2.COLOR_BGR2GRAY)
         img = cv2.GaussianBlur(img, (3, 3), 5)
-        img = cv2.bgsegm.createBackgroundSubtractorMOG().apply(img)
+        img = subtraction.apply(img)
         img = cv2.dilate(img, np.ones((5, 5)))
         
         morf = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5,5))
