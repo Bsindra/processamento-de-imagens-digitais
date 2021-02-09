@@ -51,4 +51,4 @@ Instruções para customização do programa no fim do readme.
 Entre em contato:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Bryan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bryan-sindra/)](https://www.linkedin.com/in/bryan-sindra/) 
-[![Gmail Badge](https://img.shields.io/badge/-bsindra98@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bsindra98@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-bsindra98@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bsindra98@gmail.com)](mailto:bsindra98@gmail.com)
