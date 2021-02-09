@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from tqdm import tqdm
-from time import sleep
 
 # Configurações Iniciais
 video_source = ('source.mp4')
@@ -54,10 +53,6 @@ for c in tqdm(range(frame_count)):
         #Definindo e desenhando área de interesse
         interest = frame[y1:y2, x1:x2]
         cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
-        
-        #Timer
-        delay = float(1 / fps)
-        sleep(delay)
         
         #Processamento da imagem
         img = cv2.cvtColor(interest, cv2.COLOR_BGR2GRAY)
