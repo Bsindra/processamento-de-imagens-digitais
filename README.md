@@ -26,7 +26,6 @@ Instruções para customização do programa no fim do readme.
 ## Instalando as dependências
 
     Execute o arquivo setup_windows.sh
-    (Isso irá executar seu navegador padrão para realizar o download dos pesos do YOLO v4. (aprox. 246MB))
     
 ## Execute a aplicação
   
