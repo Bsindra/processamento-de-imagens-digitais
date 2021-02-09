@@ -13,7 +13,7 @@ Instruções para customização do programa no fim do readme.
   
 ## Instalando as dependências
 
-    $cd classificador_cnn_vgg
+    $cd processamento-de-imagens-digitais
     $sudo chmod +x setup.sh
     $./setup.sh
     
