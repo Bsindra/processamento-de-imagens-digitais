@@ -37,6 +37,8 @@ Instruções para customização do programa no fim do readme.
 # Customização
 
     Para mudar o arquivo fonte basta substituir o arquivo 'source.mp4' dentro do diretório.
+    Todas as informações necessárias para que o programa seja executado normalmente serão extraídas do arquivo fonte.
+    
     Ao executar o script serão dadas opções para selecionar a Região de Interesse e o tamanho mínimo do "Alvo".
     A primeira área deve obrigatóriamente ser demarcada, o tamanho mínimo pode ser ignorado pressionando-se "Esc".
     
